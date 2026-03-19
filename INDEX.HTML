@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Rental Property Management</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>Rental Property Management</h1>
+
+<h2>Add Property</h2>
+<input id="propertyName" placeholder="Property Name">
+<input id="rentAmount" placeholder="Rent Amount">
+<button onclick="addProperty()">Add Property</button>
+
+<h2>Properties</h2>
+<ul id="propertyList"></ul>
+
+<hr>
+
+<h2>Add Tenant</h2>
+<input id="tenantName" placeholder="Tenant Name">
+<input id="tenantProperty" placeholder="Property Name">
+<button onclick="addTenant()">Add Tenant</button>
+
+<h2>Tenants</h2>
+<ul id="tenantList"></ul>
+
+<hr>
+
+<h2>Add Payment</h2>
+<input id="paymentTenant" placeholder="Tenant Name">
+<input id="paymentAmount" placeholder="Amount">
+<button onclick="addPayment()">Add Payment</button>
+
+<h2>Payments</h2>
+<ul id="paymentList"></ul>
+
+<script src="script.js"></script>
+
+</body>
+</html>
